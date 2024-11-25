@@ -2,7 +2,7 @@ function Contact(){
     return <div>
         <h1 className="text-4xl  text-white">Contact</h1>
         <div className=" my-8 w-full lg:w-[440px]">
-        <img className=" rounded-2xl" src="/public/phone.jpeg" />
+        <img className=" rounded-2xl" src="/phone.jpeg" />
         </div>
         <div className="my-8 text-white">
             <h1 className="text-4xl ">Email 📬</h1>
