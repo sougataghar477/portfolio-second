@@ -5,16 +5,16 @@ function Card({project}){
     <h1 className="card-title text-white">{project.heading}</h1>
       <p className="leading-6 mb-4 italic text-white">{project.text}</p>
       <div className="flex gap-4">
-      <Link to={project.link}>
+      <a target="_blank" href={project.link}>
         <button className="btn bg-white text-black w-28 hover:bg-slate-200 ">
         Check Out
     </button>
-        </Link>
-        {project.github && <Link to={project.github}>
+        </a>
+        {project.github && <a target="_blank" href={project.github}>
         <button className="btn bg-white text-black w-28 hover:bg-slate-200">
         Github
     </button>
-        </Link>}
+        </a>}
       </div>
 
     </div>
