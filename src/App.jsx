@@ -15,7 +15,7 @@ function App() {
 
       <div className="max-w-3xl mx-auto px-4 py-4 md:py-8">
         <Drawer />
-        <div className="flex gap-20 ">
+        <div className="flex gap-40 ">
           <Sidebar />
           <div className="grow my-8">
             <Routes>
