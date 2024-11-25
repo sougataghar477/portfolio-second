@@ -5,13 +5,18 @@ function Sidebar(){
         
         <ul className="fixed">
         <h1 className="text-4xl text-white mb-4">Sougata Ghar</h1>  
-        {links.map((link,index)=> 
-      <NavLink 
-        key={index}
-        className={`text-white link ${(isActive)=>isActive ? "active" : null}`}  
-        to={link.to}>
-<li className="w-full lg:w-56">{link.name}</li>
-</NavLink>)}
+{links.map((link, index) => (
+  <NavLink
+    key={index}
+    className={({ isActive }) => 
+      `text-white link ${isActive ? "active" : ""}`
+    }
+    to={link.to}
+  >
+    <li className="w-full lg:w-56">{link.name}</li>
+  </NavLink>
+))}
+
         </ul>
     </div>
 }

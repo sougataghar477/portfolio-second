@@ -4,7 +4,9 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Extensions from "./components/Extension";
 import Contact from "./components/Contact";
+import Drawer from "./components/Drawer";
 import Footer from "./components/Footer";
+
 function App() {
  
 
@@ -12,7 +14,7 @@ function App() {
     <Router>
 
       <div className="max-w-3xl mx-auto px-4 py-4 md:py-8">
-        
+      <Drawer/>
         <div className="flex gap-40 ">
         <Sidebar/>
         <div className="grow my-8">
