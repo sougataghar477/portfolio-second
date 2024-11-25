@@ -17,10 +17,10 @@ function App() {
         <Sidebar/>
         <div className="grow my-8">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-           <Route path="/extensions" element={<Extensions />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route index element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+           <Route path="extensions" element={<Extensions />} />
+          <Route path="contact" element={<Contact />} />
            
         </Routes>
         </div>
