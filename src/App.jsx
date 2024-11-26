@@ -15,9 +15,9 @@ function App() {
 
       <div className="max-w-3xl mx-auto px-4 py-4 md:py-8">
         <Drawer />
-        <div className="flex gap-40 ">
+        <div className="flex gap-16">
           <Sidebar />
-          <div className="grow w-full md:min-w-[440px] my-8">
+          <div className="grow w-full my-8">
             <Routes>
               <Route index element={<Home />} />
               <Route path="projects" element={<Projects />} />
