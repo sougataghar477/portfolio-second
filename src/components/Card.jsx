@@ -11,7 +11,7 @@ function Card({project}){
     </button>
         </a>
         {project.github && <a target="_blank" href={project.github}>
-        <button className="btn bg-white text-black w-28 hover:bg-slate-200">
+        <button className="btn font-bold bg-white text-black w-28 hover:bg-slate-200">
         Github
     </button>
         </a>}
