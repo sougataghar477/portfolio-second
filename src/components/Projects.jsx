@@ -13,7 +13,7 @@ function Projects(){
         { heading: 'Random Color Generator', text: 'Generates random color on click and you can copy it.', link: 'https://sougataghar477.github.io/colors/index.html', github: 'https://github.com/sougataghar477/7TV-message-copier-for-twitch' },
   ]
     return <div>
-        <h1 className="text-4xl mb-8 text-white">My Projects</h1>
+        <h1 className="text-4xl font-bold mb-8 text-white">My Projects</h1>
         {projects.map((project,index)=> <Card project={project} key={index}/>)}
     </div>
 }
