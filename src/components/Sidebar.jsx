@@ -4,7 +4,7 @@ function Sidebar(){
     return <div className="my-8 relative block w-96 hidden md:block">
         
         <ul className="fixed">
-        <h1 className="text-4xl text-white mb-4">Sougata Ghar</h1>  
+        <h1 className="text-4xl font-bold text-white mb-4">Sougata Ghar</h1>  
 {links.map((link, index) => (
   <NavLink
     key={index}
