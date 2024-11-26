@@ -1,7 +1,7 @@
 function Contact(){
     return <div>
         <h1 className="text-4xl font-bold text-white">Contact</h1>
-        <div className=" my-8 w-full md:w-[440px]">
+        <div className=" my-8 w-full">
         <img loading="lazy" className=" rounded-2xl" src="/phone.jpeg" />
         </div>
         <div className="my-8 text-white">

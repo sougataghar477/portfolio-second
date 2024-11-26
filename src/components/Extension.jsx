@@ -5,9 +5,9 @@ function Extensions(){
         { heading: 'Twitch brightness controller', text: 'Controls brightness of the video player of a twitch stream', link: 'https://addons.mozilla.org/en-US/firefox/addon/twitch-brightness-reducer/', github: 'https://github.com/sougataghar477/twitch-brightness-reducer' },
         { heading: 'Copy Message extension for 7TV', text: 'Copies message in twitch chat if you have 7TV extension', link: 'https://addons.mozilla.org/en-US/firefox/addon/message-copier-for-7tv/', github: 'https://github.com/sougataghar477/7TV-message-copier-for-twitch' },
     ]
-    return <div>
+    return < >
         <h1 className="text-4xl font-bold mb-8 text-white">My Extensions</h1>
         {extensions.map((extension,index)=> <Card project={extension} key={index}/>)}
-    </div>
+    </ >
 }
 export default Extensions;
