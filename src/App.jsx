@@ -17,7 +17,7 @@ function App() {
         <Drawer />
         <div className="flex gap-40 ">
           <Sidebar />
-          <div className="grow md:min-w-[440px] my-8">
+          <div className="grow w-full md:min-w-[440px] my-8">
             <Routes>
               <Route index element={<Home />} />
               <Route path="projects" element={<Projects />} />
