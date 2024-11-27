@@ -8,7 +8,7 @@ function Card({ project }) {
       <div className="flex gap-4">
         <a target="_blank" href={project.link}>
           <button className="btn bg-[#2cb0ff] font-bold transition-all border-0  text-white w-28 hover:bg-sky-300">
-            Check Out
+            Visit Site
           </button>
         </a>
         {project.github && <a target="_blank" href={project.github}>
