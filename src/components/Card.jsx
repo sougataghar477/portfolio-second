@@ -7,7 +7,7 @@ function Card({ project }) {
       <p className="leading-6 mb-4 italic text-white">{project.text}</p>
       <div className="flex gap-4">
         <a target="_blank" href={project.link}>
-          <button className="btn bg-[#2cb0ff] font-bold border-0  text-[#fff] w-28 hover:bg-sky-300">
+          <button className="btn bg-[#2cb0ff] font-bold border-0  text-[#fff] w-28 hover:bg-sky-500">
             Check Out
           </button>
         </a>
