@@ -9,7 +9,7 @@ function Sidebar(){
   <NavLink
     key={index}
     className={({ isActive }) => 
-      `text-white link ${isActive ? "active" : ""}`
+      `text-white link ${isActive ? "bg-gradient-to-r from-cyan-500 to-blue-500" : ""}`
     }
     to={link.to}
   >

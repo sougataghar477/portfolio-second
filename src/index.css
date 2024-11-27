@@ -16,3 +16,32 @@
     font-weight: bold;
  
   }
+ 
+.border-animating{
+  background: linear-gradient(to right, #2cb0ff,purple);
+  background-size: 300%;
+  animation: gradient-animation 4s infinite;
+}
+.scale-card{
+  animation:scaling 1s forwards;
+}
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes scaling{
+    0%{
+      scale: 0;
+    }
+    100%{
+      scale: 1;
+    }
+  }
+  
