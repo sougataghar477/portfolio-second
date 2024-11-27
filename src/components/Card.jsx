@@ -7,12 +7,12 @@ function Card({ project }) {
       <p className="leading-6 mb-4 italic text-white">{project.text}</p>
       <div className="flex gap-4">
         <a target="_blank" href={project.link}>
-          <button className="btn bg-white font-bold border-0  text-[#2cb0ff] w-28 hover:bg-slate-100">
+          <button className="btn bg-[#2cb0ff] font-bold border-0  text-[#fff] w-28 hover:bg-slate-100">
             Check Out
           </button>
         </a>
         {project.github && <a target="_blank" href={project.github}>
-          <button className="btn  bg-white border-0 font-bold  text-[#2cb0ff] w-28 hover:bg-slate-100">
+          <button className="btn  bg-[#2cb0ff] border-0 font-bold  text-[#fff] w-28 hover:bg-slate-100">
             Github
           </button>
         </a>}
