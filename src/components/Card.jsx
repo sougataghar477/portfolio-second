@@ -1,6 +1,6 @@
 
 function Card({ project }) {
-  return <div className="card scale-card relative   bg-gradient-to-r from-[#1c91d5] to-sky-400 shadow-xl mb-8 w-full">
+  return <div className="card scale-card relative   bg-gradient-to-r from-[#1c91d5] to-sky-500 shadow-xl mb-8 w-full">
      
     <div className="card-body">
       <h1 className="card-title text-white">{project.heading}</h1>
