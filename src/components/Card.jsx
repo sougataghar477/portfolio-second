@@ -1,10 +1,10 @@
 
 function Card({ project }) {
-  return <div className="card scale-card relative  bg-gradient-to-r from-[#2cb0ff] to-sky-300 shadow-xl mb-8 w-full">
+  return <div className="card scale-card relative   bg-gradient-to-r from-[#1c91d5] to-sky-400 shadow-xl mb-8 w-full">
      
     <div className="card-body">
-      <h1 className="card-title text-white">{project.heading}</h1>
-      <p className="leading-6 mb-4 italic text-white">{project.text}</p>
+      <h1 className="card-title text-[#e7e7e7]">{project.heading}</h1>
+      <p className="leading-6 mb-4 italic text-[#e7e7e7]">{project.text}</p>
       <div className="flex gap-4">
         <a target="_blank" href={project.link}>
           <button className="btn bg-white font-bold border-0  text-[#2cb0ff] w-28 hover:bg-slate-100">
