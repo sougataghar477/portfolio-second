@@ -64,11 +64,11 @@
   }
   .project-card:nth-of-type(odd){
    
-    animation:moveFromRight 1s forwards ease-in-out;
+    animation:moveFromRight .7s forwards ease-in-out;
 
   }
   .project-card:nth-of-type(even){
    
-    animation:moveFromLeft 1s forwards ease-in-out;
+    animation:moveFromLeft .7s forwards ease-in-out;
 
   }
