@@ -44,4 +44,31 @@
       scale: 1;
     }
   }
-  
+  @keyframes moveFromRight{
+    0%{
+      transform: translateX(200px);
+    }
+    100%{
+      transform: translateX(0px);
+
+    }
+  }
+  @keyframes moveFromLeft{
+    0%{
+      transform: translateX(-200px);
+    }
+    100%{
+      transform: translateX(0px);
+
+    }
+  }
+  .project-card:nth-of-type(odd){
+   
+    animation:moveFromRight 1s forwards ease-in-out;
+
+  }
+  .project-card:nth-of-type(even){
+   
+    animation:moveFromLeft 1s forwards ease-in-out;
+
+  }

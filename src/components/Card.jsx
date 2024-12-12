@@ -1,6 +1,6 @@
 
 function Card({ project }) {
-  return <div className="card scale-card relative bg-white mb-8 w-full">
+  return <div className="card project-card relative bg-white mb-8 w-full">
 
     <div className="card-body">
       <h1 className="card-title text-black">{project.heading}</h1>
@@ -22,5 +22,4 @@ function Card({ project }) {
   </div>
 }
 export default Card;
-// bg-base-300
-// bg-gradient-to-r from-[#1c91d5] to-sky-400
+ 
