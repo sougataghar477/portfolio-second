@@ -1,6 +1,6 @@
 
-function Card({ project,index }) {
-  return <div className={`card project-card relative bg-white mb-8 w-full`}>
+function Card({ project }) {
+  return <div className="card project-card relative bg-white mb-8 w-full">
 
     <div className="card-body">
       <h1 className="card-title text-black">{project.heading}</h1>

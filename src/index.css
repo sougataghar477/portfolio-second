@@ -25,7 +25,7 @@
 .scale-card{
   animation:scaling 1s forwards;
 }
-  /* @keyframes gradient-animation {
+  @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
     }
@@ -71,15 +71,4 @@
    
     animation:moveFromLeft .7s forwards ease-in-out;
 
-  } */
-  .project-card:nth-of-type(odd){
-   
-     @apply motion-preset-slide-right 
-
   }
-  .project-card:nth-of-type(even){
-   
-    @apply motion-preset-slide-left 
-     
-
-  } 
