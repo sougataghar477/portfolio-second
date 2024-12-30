@@ -15,7 +15,7 @@ function Projects(){
   ]
     return <  >
         <h1 className="text-4xl font-bold mb-8 text-white">My Projects</h1>
-        {projects.map((project,index)=> <Card project={project} key={index}/>)}
+        {projects.map((project,index)=> <Card project={project} index={index} key={index}/>)}
     </ >
 }
 export default Projects;
