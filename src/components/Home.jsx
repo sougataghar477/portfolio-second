@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 function Home(){
     return < >
-        <h1 className="text-4xl font-bold text-white">Welcome To My Website</h1>
+        <h1 className="text-4xl font-bold dark:text-white">Welcome To My Website</h1>
         <div className=" my-8 w-full">
         <img loading="lazy" className="rounded-2xl" src="/pexels-photo-3826666.jpeg" />
         </div>
