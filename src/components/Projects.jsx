@@ -4,6 +4,7 @@ function Projects(){
         { heading:'TimeFramed',text:'Made some parts of the website with React JS.',link:'https://timeframed.art'},
         {heading:'Plantly',text:'A fullstack E-Commerce website made with Next JS,Chakra UI,Stripe and Mongo DB.',link:'https://plantly-rho.vercel.app/',github:'https://github.com/sougataghar477/plantly'},
         { heading: 'Rabbit API', text: 'A fullstack open source Rabbit Image API made with Next JS,Chakra UI,MongoDB and Firebase.', link: 'https://rabbit-api-two.vercel.app/', github: 'https://github.com/sougataghar477/rabbit-api' },
+        {heading:'Mosaic',text:'An animated website I made with tailwind and GSAP',link:'https://mosaic-khaki.vercel.app/',github:'https://github.com/sougataghar477/mosaic'},
         {heading:'Movie & TV Show Database',text:'A website for looking up Movies and TV Shows made with React and React Router,Chakra UI featuring pagination.',link:'https://movie-show-db.vercel.app/',github:'https://github.com/sougataghar477/movie-show-db'},
         { heading: 'Kontrast Productions', text: 'Made the portfolio and contact sections.', link: 'https://www.kontrastproduction.sk/#testimonials' },
         { heading: 'PersonalFinance', text: 'A website I made with react.', link: 'https://www.personalfinances.stage.iamthedev.eu/' },
