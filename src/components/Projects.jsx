@@ -2,6 +2,8 @@ import Card from "./Card";
 function Projects(){
     let projects = [
         { heading:'TimeFramed',text:'Made some parts of the website with React JS.',link:'https://timeframed.art'},
+        {heading:'Imagegram',text:'An instagram clone made with Next JS,Next Auth,Supabase and MongoDB',link:'https://image-gram-neon.vercel.app/',github:'https://github.com/sougataghar477/image-gram'},
+        {heading:'Sunnyside',text:'A beautiful website from Frontend Mentors made with just HTML and CSS',link:'https://sunnyside-psi-tan.vercel.app/',github:'https://github.com/sougataghar477/sunnyside/'},
         {heading:'Plantly',text:'A fullstack E-Commerce website made with Next JS,Chakra UI,Stripe and Mongo DB.',link:'https://plantly-rho.vercel.app/',github:'https://github.com/sougataghar477/plantly'},
         { heading: 'Rabbit API', text: 'A fullstack open source Rabbit Image API made with Next JS,Chakra UI,MongoDB and Firebase.', link: 'https://rabbit-api-two.vercel.app/', github: 'https://github.com/sougataghar477/rabbit-api' },
         {heading:'Mosaic',text:'An animated website I made with tailwind and GSAP',link:'https://mosaic-khaki.vercel.app/',github:'https://github.com/sougataghar477/mosaic'},
