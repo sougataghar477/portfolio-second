@@ -10,7 +10,7 @@ function Projects(){
         {heading:'Movie & TV Show Database',text:'A website for looking up Movies and TV Shows made with React and React Router,Chakra UI featuring pagination.',link:'https://movie-show-db.vercel.app/',github:'https://github.com/sougataghar477/movie-show-db'},
         {heading: 'Kontrast Productions', text: 'Made the portfolio and contact sections.', link: 'https://www.kontrastproduction.sk/#testimonials' },
         {heading: 'PersonalFinance', text: 'A website I made with react.', link: 'https://www.personalfinances.stage.iamthedev.eu/' },
-        {heading:'Pet Bird API',text:'A full stack API made with Node JS and tailwind CSS.',link:'https://pet-bird-api.onrender.com/',github:'github.com/sougataghar477/pet-bird-api/'},
+        {heading:'Pet Bird API',text:'A full stack API made with Node JS,PostgreSQL and tailwind CSS.',link:'https://pet-bird-api.onrender.com/',github:'github.com/sougataghar477/pet-bird-api/'},
         {heading:'Alveus Sanctuary',text:'Contributed to website of Alveus Sanctuary.',link:'https://www.alveussanctuary.org/',github:'https://github.com/alveusgg/alveusgg/tree/main/apps/website'},
         {heading: 'Help Ukraine', text: 'A website containing useful links for helping Ukraine.', link: 'https://help-ukraine.netlify.app/', github: 'https://github.com/sougataghar477/helpUkraine' },
         {heading: 'CSS Units Converter', text: 'Converts lots of units into another units.', link: 'https://css-unitsconverter.netlify.app/', github: 'https://github.com/sougataghar477/css-units-converter' },
